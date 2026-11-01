@@ -1,4 +1,4 @@
-# animam-ai
+# Animam.ai
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-animam-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://animam.ai/
+Animam.ai provides an API‑first platform for deploying AI‑powered conversational agents at scale. It offers multi‑tenant, multi‑channel, white‑label agents with built‑in tools for contact forms, quote generation, meeting booking, and payment processing. The service includes a public REST API, an MCP server for model‑context protocol, a widget CDN, and voice integration via Vapi. Hosted in France, it is GDPR‑compliant and billed per bot with flat monthly pricing. Developers can use managed Claude models or bring their own keys (BYOK) across major providers.
+
+**Areas:** AI · Automation · LeadGeneration · Chatbot · SaaS
+
+## Animam.ai on APIs.io
+
+Everything profiled for Animam.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/animam-ai/](https://apis.io/providers/animam-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Animam.ai Corpus API](https://apis.io/apis/animam-ai/animam-ai-corpus-api/) — Knowledge base CRUD.
+- [Animam.ai Segments API](https://apis.io/apis/animam-ai/animam-ai-segments-api/) — Conversation segments (audiences).
+- [Animam.ai Tenants API](https://apis.io/apis/animam-ai/animam-ai-tenants-api/) — Tenant settings, persona, MCP tools config.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Animam Ai Agentic Access](https://apis.io/agentic-access/animam-ai/animam-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CorpusEntry](https://apis.io/schemas/animam-ai/animam-ai-corpus-entry/)
+- [CreateCorpusBody](https://apis.io/schemas/animam-ai/animam-ai-create-corpus-body/)
+- [CreateSegmentBody](https://apis.io/schemas/animam-ai/animam-ai-create-segment-body/)
+- [ListCorpusResponse](https://apis.io/schemas/animam-ai/animam-ai-list-corpus-response/)
+- [SegmentDetail](https://apis.io/schemas/animam-ai/animam-ai-segment-detail/)
+- [UpdateTenantBody](https://apis.io/schemas/animam-ai/animam-ai-update-tenant-body/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Animam Ai Context](https://apis.io/jsonld/animam-ai/animam-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Animam.ai API Rules](https://apis.io/rules/animam-ai/animam-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Animam Ai Authentication](https://apis.io/security/animam-ai/animam-ai-authentication/)
+- [Animam Ai Domain Security](https://apis.io/security/animam-ai/animam-ai-domain-security/)
+- [Animam Ai Vulnerability Disclosure](https://apis.io/security/animam-ai/animam-ai-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Animam Ai Scopes](https://apis.io/scopes/animam-ai/animam-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Animam Ai Plans Pricing](https://apis.io/plans/animam-ai/animam-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Animam Ai Rate Limits](https://apis.io/rate-limits/animam-ai/animam-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://animam.ai/)
+- [Documentation](https://docs.animam.ai/)
+- [Getting started](https://docs.animam.ai/quickstart)
+- [API reference](https://animam.ai/for-dev)
+- [Pricing](https://animam.ai/pricing)
+- [Trust centre](https://animam.ai/trust)
+- [GitHub](https://github.com/animam)
+
+## API Evangelist rating
+
+**Kin Score 58.2** — strong · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 58.5 |
+| Contract governance | 70.9 |
+| Operational transparency | 34.7 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 60.0 |
+
+**Agent readiness 58.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 34.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/animam-ai/](https://apis.io/providers/animam-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Animam.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/animam-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
